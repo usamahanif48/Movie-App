@@ -1,0 +1,88 @@
+.carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    border: 10px solid #fff;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators .active {
+    border: 10px solid #fff;
+    background-color: black !important;
+  }
+  .carousel-indicators {
+    background: transparent;
+  }
+  
+  .changebtn {
+    background: #fff;
+    border-radius: 50%;
+    width: 30%;
+  }
+  
+  .headerContent1 {
+    background: linear-gradient(to bottom, #04040492, #00000080),
+      url("../../Assets/bn-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+  }
+  
+  .headerContent2 {
+    background: linear-gradient(to bottom, #04040492, #00000080),
+      url("../../Assets/banner-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;   
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    /* position: ; */
+  }
+  .headerContent3 {
+    background: linear-gradient(to bottom, #04040492, #00000080),
+      url("../../Assets/banner-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+    /* position: ; */
+  
+  }
+  
+  .carousel-item h2 {
+    background-color: transparent;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 250px;
+  }
+  .carousel-item p {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: -50px;
+  }
+  .carousel-item{
+    transition: transform .9s ease-in-out,-webkit-transform .1s ease-in-out !important;
+    float: left !important;
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .carousel-item p  {
+      margin-left: 5px;
+    }
+    .carousel-item h2{
+      margin-left: 5px;
+    }
+  }
